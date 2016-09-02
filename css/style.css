@@ -1,0 +1,68 @@
+body{
+  background-color: #15ae93;
+}
+
+#outer{
+  width: 400px;
+  height: 480px;
+  border: 5px solid black;
+  margin-left:480px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: brown;
+}
+
+#outerDisplay{
+  margin-top: 20px;
+  width: 370px;
+  height: 80px;
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#innerText{
+  font-family: "Orbitron", arial;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+table
+{ 
+    width: 100%;
+    height: 75%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+button{
+  font-family: "Orbitron", arial;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: large;
+  position: relative;
+  border: none;
+}
+
+button:focus{
+  outline:0;
+}
+
+button:active{
+  top: 3px;
+  border:none;
+  background-color: #d3d3d3;
+}
